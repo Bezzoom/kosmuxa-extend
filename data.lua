@@ -2,4 +2,5 @@
 require('data/paths.lua');
 ----------------------------------------------------------------------------------
 
-require(whs_data .. '/resources.lua');
+require(whs_data .. '/items.lua');
+require(whs_data .. '/vehiles.lua');
