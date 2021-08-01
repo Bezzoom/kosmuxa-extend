@@ -1,0 +1,11 @@
+{
+	"name": "kosmuxa-extend",
+	"version": "0.0.1",
+	"factorio_version": "1.1",
+	"title": "KosMuxa Extended for Server",
+	"author": "Kosmuxa",
+	"contact": "admin@kosmuxa.ru",
+	"homepage": "",
+	"description": "Extended stack, Big warehouses from Krastorio",
+	"dependencies": []
+}
