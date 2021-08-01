@@ -5,5 +5,8 @@ This mod exted stack size of:
  - Belts;
  - Inserters;
 
+Also add some buildings:
+ - Extended chests (from Krastorio Mod)
+
 Also it increase max speed of locomotives.
 
