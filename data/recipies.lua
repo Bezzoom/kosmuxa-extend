@@ -37,11 +37,11 @@ data:extend({
 		type = "recipe",
 		name = "whs-loader",
 		energy_required = 1,
-		-- enabled = false,
+		enabled = false,
 		ingredients = 
 		{
-			{"whs-medium-chest", 10},
-			{"steel-plate", 10}
+			{"transport-belt", 5},
+			{"iron-gear-wheel", 10}
 		},
 		subgroup = "belt",
 		result = "whs-loader"
@@ -50,11 +50,11 @@ data:extend({
 		type = "recipe",
 		name = "whs-fast-loader",
 		energy_required = 1,
-		-- enabled = false,
+		enabled = false,
 		ingredients = 
 		{
-			{"whs-medium-chest", 10},
-			{"steel-plate", 10}
+			{"fast-transport-belt", 5},
+			{"whs-loader", 2}
 		},
 		subgroup = "belt",
 		result = "whs-fast-loader"
@@ -63,11 +63,12 @@ data:extend({
 		type = "recipe",
 		name = "whs-express-loader",
 		energy_required = 1,
-		-- enabled = false,
+		enabled = false,
 		ingredients = 
 		{
-			{"whs-medium-chest", 10},
-			{"steel-plate", 10}
+			{"express-transport-belt", 5},
+			{"whs-fast-loader", 10},
+			{"lubricant", 50}
 		},
 		subgroup = "belt",
 		result = "whs-express-loader"
