@@ -64,7 +64,7 @@ data:extend(
 			icon = "__kosmuxa-extend__/graphics/icons/whs-express-loader.png",
 			icon_size = 64,
 			icon_minimaps = 4,
-			localised_name = {"entity-name.whs-express-loade"},
+			localised_name = {"entity-name.whs-express-loader"},
 			localised_description = {"entity-description:whs-express-loader"},
 			subgroup = "belt",
 			order = "d[loader]-a1[whs-express-loader]",
