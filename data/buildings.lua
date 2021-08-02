@@ -1,5 +1,8 @@
 data:extend(
 	{
+-------------------------------------------------------------------------------
+-- Containers
+-------------------------------------------------------------------------------
 		{
 			type = "item",
 			name = "whs-medium-chest",
@@ -25,6 +28,48 @@ data:extend(
 			order = "a",
 			stack_size = 25,
 			place_result = "whs-big-chest"
+		},
+-------------------------------------------------------------------------------
+-- Loaders
+-------------------------------------------------------------------------------
+		{
+			type = "item",
+			name = "whs-loader",
+			icon = "__kosmuxa-extend__/graphics/icons/whs-loader.png",
+			icon_size = 64,
+			icon_minimaps = 4,
+			localised_name = {"entity-name.whs-loader"},
+			localised_description = {"entity-description:whs-loader"},
+			subgroup = "belt",
+			order = "d[loader]-a1[whs-loader]",
+			stack_size = 50,
+			place_result = "whs-loader"
+		},
+		{
+			type = "item",
+			name = "whs-fast-loader",
+			icon = "__kosmuxa-extend__/graphics/icons/whs-fast-loader.png",
+			icon_size = 64,
+			icon_minimaps = 4,
+			localised_name = {"entity-name.whs-fast-loader"},
+			localised_description = {"entity-description:whs-fast-loader"},
+			subgroup = "belt",
+			order = "d[loader]-a1[whs-fast-loader]",
+			stack_size = 50,
+			place_result = "whs-fast-loader"
+		},
+		{
+			type = "item",
+			name = "whs-express-loader",
+			icon = "__kosmuxa-extend__/graphics/icons/whs-express-loader.png",
+			icon_size = 64,
+			icon_minimaps = 4,
+			localised_name = {"entity-name.whs-express-loade"},
+			localised_description = {"entity-description:whs-express-loader"},
+			subgroup = "belt",
+			order = "d[loader]-a1[whs-express-loader]",
+			stack_size = 50,
+			place_result = "whs-express-loader"
 		}
 	}
 )
