@@ -18,7 +18,7 @@ data:extend({
 		order = "a[items]-d[medium-chest]",
 		result = "whs-medium-chest"
 	},
-	{
+--[[	{
 		type = "recipe",
 		name = "whs-medium-active-provider-chest",
 		energy_required = 2,
@@ -31,7 +31,36 @@ data:extend({
 		subgroup = "storage",
 		order = "a[medium-active-provider-container]",
 		result = "whs-medium-active-provider-chest"
+	},	]]
+	{
+		type = "recipe",
+		name = "whs-medium-passive-provider-chest",
+		energy_required = 2,
+		enabled = false,
+		ingredients =
+		{
+			{"whs-medium-chest", 1},
+			{"advanced-circuit", 5}
+		},
+		subgroup = "storage",
+		order = "a[medium-passive-provider-container]",
+		result = "whs-medium-passive-provider-chest"
 	},
+	{
+		type = "recipe",
+		name = "whs-medium-storage-chest",
+		energy_required = 2,
+		enabled = false,
+		ingredients =
+		{
+			{"whs-medium-chest", 1},
+			{"advanced-circuit", 5}
+		},
+		subgroup = "storage",
+		order = "a[medium-storage-container]",
+		result = "whs-medium-storage-chest"
+	},
+-------------------------------------------------------------------------
 	{
 		type = "recipe",
 		name = "whs-big-chest",
