@@ -62,13 +62,14 @@ data:extend({
 	{
 		type = "recipe",
 		name = "whs-express-loader",
+		category = "crafting-with-fluid",
 		energy_required = 1,
 		enabled = false,
 		ingredients = 
 		{
 			{"express-transport-belt", 5},
 			{"whs-fast-loader", 10},
-			{"lubricant", 50}
+			{type="fluid", name="lubricant", amount=50}
 		},
 		subgroup = "belt",
 		result = "whs-express-loader"

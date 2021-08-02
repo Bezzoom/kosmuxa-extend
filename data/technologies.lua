@@ -25,4 +25,57 @@ data:extend({
 			time = 30
 		},
 	}
-})
+});
+
+data.raw['technology']['logistics'].effects = {
+	{
+		type = "unlock-recipe",
+		recipe = "underground-belt"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "splitter"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "whs-loader"
+	}
+};
+
+data.raw['technology']['logistics-2'].effects = {
+	{
+		type = "unlock-recipe",
+		recipe = "fast-transport-belt"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "fast-underground-belt"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "fast-splitter"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "whs-fast-loader"
+	}
+};
+
+data.raw['technology']['logistics-3'].effects = {
+	{
+		type = "unlock-recipe",
+		recipe = "express-transport-belt"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "express-underground-belt"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "express-splitter"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "whs-express-loader"
+	}
+};
