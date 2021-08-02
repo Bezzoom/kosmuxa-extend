@@ -20,7 +20,7 @@ data:extend({
 		enabled = false,
 		ingredients =
 			{
-				{"whs-big-chest", 10},
+				{"whs-medium-chest", 10},
 				{"steel-plate", 10}
 			},
 		subgroup = "storage",
