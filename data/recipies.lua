@@ -2,6 +2,8 @@ data:extend({
 -------------------------------------------------------------------------
 -- Containers
 -------------------------------------------------------------------------
+---- Medium containers
+-------------------------------------------------------------------------
 	{
 		type = "recipe",
 		name = "whs-medium-chest",
@@ -15,6 +17,20 @@ data:extend({
 		subgroup = "storage",
 		order = "a[items]-d[medium-chest]",
 		result = "whs-medium-chest"
+	},
+	{
+		type = "recipe",
+		name = "whs-medium-active-provider-chest",
+		energy_required = 2,
+		enabled = false,
+		ingredients =
+		{
+			{"whs-medium-chest", 1},
+			{"advanced-circuit", 5}
+		},
+		subgroup = "storage",
+		order = "a[medium-active-provider-container]",
+		result = "whs-medium-active-provider-chest"
 	},
 	{
 		type = "recipe",

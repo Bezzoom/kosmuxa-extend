@@ -79,3 +79,34 @@ data.raw['technology']['logistics-3'].effects = {
 		recipe = "whs-express-loader"
 	}
 };
+
+data.raw['technology']['logistic-robotics'].effects = {
+	{
+		type = "unlock-recipe",
+		recipe = "roboport"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "logistic-chest-passive-provider"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "logistic-chest-storage"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "logistic-robot"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "whs-medium-active-provider-chest"
+	},
+	{
+		type = "character-logistic-requests",
+		modifier = true
+	},
+	{
+		type = "character-logistic-trash-slots",
+		modifier = 30
+	}
+}

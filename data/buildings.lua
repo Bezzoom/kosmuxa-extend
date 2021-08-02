@@ -3,6 +3,8 @@ data:extend(
 -------------------------------------------------------------------------------
 -- Containers
 -------------------------------------------------------------------------------
+---- Medium containers
+-------------------------------------------------------------------------------
 		{
 			type = "item",
 			name = "whs-medium-chest",
@@ -15,6 +17,19 @@ data:extend(
 			order = "a",
 			stack_size = 25,
 			place_result = "whs-medium-chest"
+		},
+		{
+			type = "item",
+			name = "whs-medium-active-provider-chest",
+			icon = "__kosmuxa-extend__/graphics/icons/medium-active-provider-container.png",
+			icon_size = 64,
+			icon_mipmaps = 4,
+			localised_name = {"entity-name.whs-medium-active-provider-chest"},
+			localised_description = {"entity-description.whs-medium-active-provider-chest"},
+			subgroup = "storage",
+			order = "a",
+			stack_size = 25,
+			place_result = "whs-medium-active-provider-chest"
 		},
 		{
 			type = "item",
