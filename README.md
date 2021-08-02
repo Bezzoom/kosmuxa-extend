@@ -7,6 +7,7 @@ This mod exted stack size of:
 
 Also add some buildings:
  - Extended chests (from Krastorio Mod)
+ - Loaders (from Krastorio Mod)
 
 Also it increase max speed of locomotives.
 
