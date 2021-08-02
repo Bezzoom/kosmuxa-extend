@@ -6,11 +6,25 @@ data:extend({
 		enabled = false,
 		ingredients =
 			{
-				{"steel-chest", 4},
-				{"steel-plate", 2}
+				{"steel-chest", 5},
+				{"steel-plate", 5}
 			},
 		subgroup = "storage",
 		order = "a[items]-d[medium-chest]",
 		result = "whs-medium-chest"
+	},
+	{
+		type = "recipe",
+		name = "whs-big-chest",
+		energy_required = 2,
+		enabled = false,
+		ingredients =
+			{
+				{"whs-big-chest", 10},
+				{"steel-plate", 10}
+			},
+		subgroup = "storage",
+		order = "a[items]-d[big-chest]",
+		result = "whs-big-chest"
 	}
 });

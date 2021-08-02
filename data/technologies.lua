@@ -9,6 +9,10 @@ data:extend({
 			{
 				type = "unlock-recipe",
 				recipe = "whs-medium-chest"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "whs-big-chest"
 			}
 		},
 		prerequisites = {"steel-processing"},
