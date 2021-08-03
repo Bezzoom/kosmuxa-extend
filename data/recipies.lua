@@ -135,6 +135,51 @@ data:extend({
 		order = "a[items]-d[big-chest]",
 		result = "whs-big-storage-chest"
 	},
+	{
+		type = "recipe",
+		name = "whs-big-active-provider-chest",
+		energy_required = 2,
+		enabled = false,
+		ingredients =
+		{
+			{"whs-big-chest", 1},
+			{"advanced-circuit", 10},
+			{"electronic-circuit", 10}
+		},
+		subgroup = "storage",
+		order = "a[items]-d[big-chest]",
+		result = "whs-big-active-provider-chest"
+	},
+	{
+		type = "recipe",
+		name = "whs-big-buffer-chest",
+		energy_required = 2,
+		enabled = false,
+		ingredients =
+		{
+			{"whs-big-chest", 1},
+			{"advanced-circuit", 10},
+			{"electronic-circuit", 10}
+		},
+		subgroup = "storage",
+		order = "a[items]-d[big-chest]",
+		result = "whs-big-buffer-chest"
+	},
+	{
+		type = "recipe",
+		name = "whs-big-requester-chest",
+		energy_required = 2,
+		enabled = false,
+		ingredients =
+		{
+			{"whs-big-chest", 1},
+			{"advanced-circuit", 10},
+			{"electronic-circuit", 10}
+		},
+		subgroup = "storage",
+		order = "a[items]-d[big-chest]",
+		result = "whs-big-requester-chest"
+	},
 -------------------------------------------------------------------------
 -- Loaders
 -------------------------------------------------------------------------

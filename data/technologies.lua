@@ -138,7 +138,7 @@ data.raw['technology']['logistic-system'].effects = {
 	},
 	{
 		type = "unlock-recipe",
-		recipe = "whs-medium-passive-provider-chest"
+		recipe = "whs-medium-active-provider-chest"
 	},
 	{
 		type = "unlock-recipe",
@@ -147,5 +147,17 @@ data.raw['technology']['logistic-system'].effects = {
 	{
 		type = "unlock-recipe",
 		recipe = "whs-medium-requester-chest"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "whs-big-active-provider-chest"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "whs-big-buffer-chest"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "whs-big-requester-chest"
 	}
 }
