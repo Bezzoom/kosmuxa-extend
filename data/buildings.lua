@@ -18,7 +18,7 @@ data:extend(
 			stack_size = 25,
 			place_result = "whs-medium-chest"
 		},
---[[		{
+		{
 			type = "item",
 			name = "whs-medium-active-provider-chest",
 			icon = "__kosmuxa-extend__/graphics/icons/medium-active-provider-container.png",
@@ -30,7 +30,7 @@ data:extend(
 			order = "a",
 			stack_size = 25,
 			place_result = "whs-medium-active-provider-chest"
-		},	]]
+		},
 		{
 			type = "item",
 			name = "whs-medium-passive-provider-chest",
@@ -56,6 +56,32 @@ data:extend(
 			order = "a",
 			stack_size = 25,
 			place_result = "whs-medium-storage-chest"
+		},
+		{
+			type = "item",
+			name = "whs-medium-buffer-chest",
+			icon = "__kosmuxa-extend__/graphics/icons/medium-buffer-container.png",
+			icon_size = 64,
+			icon_mipmaps = 4,
+			localised_name = {"entity-name.whs-medium-buffer-chest"},
+			localised_description = {"entity-description.whs-medium-buffer-chest"},
+			subgroup = "storage",
+			order = "a",
+			stack_size = 25,
+			place_result = "whs-medium-buffer-chest"
+		},
+		{
+			type = "item",
+			name = "whs-medium-requester-chest",
+			icon = "__kosmuxa-extend__/graphics/icons/medium-requester-container.png",
+			icon_size = 64,
+			icon_mipmaps = 4,
+			localised_name = {"entity-name.whs-medium-requester-chest"},
+			localised_description = {"entity-description.whs-medium-requester-chest"},
+			subgroup = "storage",
+			order = "a",
+			stack_size = 25,
+			place_result = "whs-medium-requester-chest"
 		},
 		{
 			type = "item",

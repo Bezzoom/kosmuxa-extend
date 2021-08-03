@@ -4,9 +4,11 @@ require('data/paths.lua');
 --
 -------------------------------------------------------------------------
 require(whs_data_entities .. 'medium-chest.lua');
---require(whs_data_entities .. 'medium-active-provider-chest.lua');
+require(whs_data_entities .. 'medium-active-provider-chest.lua');
 require(whs_data_entities .. 'medium-passive-provider-chest.lua');
 require(whs_data_entities .. 'medium-storage-chest.lua');
+require(whs_data_entities .. 'medium-buffer-chest.lua');
+require(whs_data_entities .. 'medium-requester-chest.lua');
 require(whs_data_entities .. 'big-chest.lua');
 require(whs_data_entities .. 'whs-loader.lua');
 -------------------------------------------------------------------------

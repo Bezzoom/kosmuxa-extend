@@ -114,3 +114,30 @@ data.raw['technology']['logistic-robotics'].effects = {
 		modifier = 30
 	}
 }
+
+data.raw['technology']['logistic-system'].effects = {
+	{
+		type = "unlock-recipe",
+		recipe = "logistic-chest-active-provider"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "logistic-chest-requester"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "logistic-chest-buffer"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "whs-medium-passive-provider-chest"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "whs-medium-buffer-chest"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "whs-medium-requester-chest"
+	}
+}
