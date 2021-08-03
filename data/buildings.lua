@@ -83,6 +83,35 @@ data:extend(
 			stack_size = 25,
 			place_result = "whs-medium-requester-chest"
 		},
+-------------------------------------------------------------------------------
+---- Big containers
+-------------------------------------------------------------------------------
+		{
+			type = "item",
+			name = "whs-big-passive-provider-chest",
+			icon = "__kosmuxa-extend__/graphics/icons/big-passive-provider-container.png",
+			icon_size = 64,
+			icon_mipmaps = 4,
+			localised_name = {"entity-name.whs-big-passive-provider-chest"},
+			localised_description = {"entity-description.whs-big-passive-provider-chest"},
+			subgroup = "storage",
+			order = "a",
+			stack_size = 25,
+			place_result = "whs-big-passive-provider-chest"
+		},
+		{
+			type = "item",
+			name = "whs-big-storage-chest",
+			icon = "__kosmuxa-extend__/graphics/icons/big-storage-container.png",
+			icon_size = 64,
+			icon_mipmaps = 4,
+			localised_name = {"entity-name.whs-big-storage-chest"},
+			localised_description = {"entity-description.whs-big-storage-chest"},
+			subgroup = "storage",
+			order = "a",
+			stack_size = 25,
+			place_result = "whs-big-storage-chest"
+		},
 		{
 			type = "item",
 			name = "whs-big-chest",

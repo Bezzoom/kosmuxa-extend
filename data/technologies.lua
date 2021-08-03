@@ -95,15 +95,23 @@ data.raw['technology']['logistic-robotics'].effects = {
 	},
 	{
 		type = "unlock-recipe",
-		recipe = "logistic-robot"
-	},
-	{
-		type = "unlock-recipe",
 		recipe = "whs-medium-passive-provider-chest"
 	},
 	{
 		type = "unlock-recipe",
 		recipe = "whs-medium-storage-chest"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "whs-big-passive-provider-chest"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "whs-big-storage-chest"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "logistic-robot"
 	},
 	{
 		type = "character-logistic-requests",

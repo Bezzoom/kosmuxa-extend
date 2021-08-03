@@ -10,6 +10,8 @@ require(whs_data_entities .. 'medium-storage-chest.lua');
 require(whs_data_entities .. 'medium-buffer-chest.lua');
 require(whs_data_entities .. 'medium-requester-chest.lua');
 require(whs_data_entities .. 'big-chest.lua');
+require(whs_data_entities .. 'big-passive-provider-chest.lua');
+require(whs_data_entities .. 'big-storage-chest.lua');
 require(whs_data_entities .. 'whs-loader.lua');
 -------------------------------------------------------------------------
 --
